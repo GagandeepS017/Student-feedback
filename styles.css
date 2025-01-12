@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  text-align: right;
+  border-radius: 8px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+
+nav ul li {
+  margin: 10px 15px;
+}
+
+nav ul li a {
+  color: #007bff;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+nav ul li a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#personal .form-row {
+  display: flex;
+  flex-direction: column;
+}
+
+#personal .form-row-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, select, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  padding: 10px;
+  width: 98%;
+}
+
+h2 {
+  color:white;
+  grid-column: span 2;
+  text-align: left;
+  margin-top: 2rem;
+  background-color: #333;
+}
+
+.survey {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-container{
+  margin-left: 2rem;
+}
+
+.checkbox-container label{
+  font-weight: lighter;
+}
+
+.survey-question {
+  margin-bottom: 1rem;
+}
+
+.radio-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  gap: 10px;
+}
+
+.radio-container label{
+  font-weight: lighter;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.contact {
+  text-align: right;
+  margin-top: 1rem;
+}
+ li{
+  margin-bottom: 10px;
+  line-height: 1.5;
+ }
+
+ .SDLC{
+  margin-bottom: 2.5rem;
+ }
+
+ .Webpage{
+  margin-bottom: 2.5rem;
+ }
+
+ .capitalAlphabet{
+  list-style-type: upper-alpha;
+ }
+
+ .alphabet{
+  list-style-type: lower-alpha;
+ }
